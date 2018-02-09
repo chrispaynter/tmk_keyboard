@@ -5,8 +5,7 @@ Ergonomic keyboard by Microsoft modified to work with Teensy 2.0.
 - TODO: put original controller PCB version
 
 ## Microsoft Sculpt Ergonomic Desktop keyboard resources
-- [Microsoft Sculpt Ergonomic Desktop support page]
-(https://www.microsoft.com/hardware/en-us/d/sculpt-ergonomic-desktop)
+- [Microsoft Sculpt Ergonomic Desktop support page](https://www.microsoft.com/hardware/en-us/d/sculpt-ergonomic-desktop)
 
 ## Build
 Move to this directory and run `make`:
