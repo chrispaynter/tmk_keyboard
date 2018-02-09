@@ -124,7 +124,7 @@ Note that RALT and RSFT are now sitting on the same column (C).
 
 ## Keymap
 
-### 1  Original Scultp keymap
+### 1  Original Sculpt keymap
 [keymap.c](keymap.c) represents original Sculpt layout
 
     Fn + {F1, F2, F3} = {play/pause, mute, volume down, volume up}
