@@ -6,6 +6,7 @@ Ergonomic keyboard by Microsoft modified to work with Teensy 2.0.
 
 ## Microsoft Sculpt Ergonomic Desktop keyboard resources
 - [Microsoft Sculpt Ergonomic Desktop support page](https://www.microsoft.com/hardware/en-us/d/sculpt-ergonomic-desktop)
+- [Photos of completed wired mod](https://photos.app.goo.gl/KOjkhbifV5bxhWOU2)
 
 ## Build
 Move to this directory and run `make`:
