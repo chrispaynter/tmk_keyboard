@@ -20,7 +20,13 @@ SN5822 US 852-41441-00A V0.4 GODA-3 130601
 
 The US controller PCB had the following writing:
 
-SK3360 V1.1 2013/03/18 812-01311-00A KB-6160 E157925
+SK3360 V1.1 2013/03/18
+
+812-01311-00A
+
+E157925
+
+KB-6160
 
 ### Original US layout keyboard matrix
 Original US layout keboard matrix is 8 rows and 18 columns:
