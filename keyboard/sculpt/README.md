@@ -2,8 +2,6 @@ Microsoft Sculpt Ergonomic Desktop keyboard firmware
 ======================
 Ergonomic keyboard by Microsoft modified to work with Teensy 2.0.
 
-- TODO: put original controller PCB version
-
 ## Microsoft Sculpt Ergonomic Desktop keyboard resources
 - [Microsoft Sculpt Ergonomic Desktop support page](https://www.microsoft.com/hardware/en-us/d/sculpt-ergonomic-desktop)
 - [Photos of completed wired mod](https://photos.app.goo.gl/KOjkhbifV5bxhWOU2)
@@ -29,7 +27,7 @@ E157925
 KB-6160
 
 ### Original US/UK layout keyboard matrix
-Original US layout keboard matrix is 8 rows and 18 columns with UK keys in brackets:
+Original US layout keboard matrix is 8 rows and 18 columns with UK extra keys in () brackets:
 
           A     B     C     D     E     F     G     H     I
        ----------------------------------------------------
@@ -38,7 +36,7 @@ Original US layout keboard matrix is 8 rows and 18 columns with UK keys in brack
     3        HOME        CALC     P     O           I        -->
     4        SLCK         ENT  SCLN     L           K  BSLS  -->
     5                     APP  SLSH  QUOT  RALT        LEFT  -->
-    6        END   RSFT  PGDN   (NUHS)  DOT      COMM        --> 
+    6        END   RSFT  PGDN (NUHS)  DOT        COMM        --> 
     7  LCTL  RGHT          UP  DOWN                    RSPC  -->
     8        PSCR         F11   EQL    F9          F8   F10  -->
 
@@ -47,7 +45,7 @@ Original US layout keboard matrix is 8 rows and 18 columns with UK keys in brack
                   -->     7   TAB     Q     2     1                          1
                   -->     Y    F5    F3     W     4          F6              2
                   -->     U     R     E  CAPS     3           T              3
-                  -->     J     F     D   (NUBS)  A        LGUI              4
+                  -->     J     F     D (NUBS)    A        LGUI              4
                   -->     H     G    F4     S   ESC              LALT        5
                   -->     M     V     C     X     Z  LSFT                    6
                   -->     N     B  LSPC                                RCTL  7
@@ -110,7 +108,7 @@ Modified matrix will have 8 rows and 17 columns and will require 25 pins:
     3        HOME        CALC     P     O     I        -->
     4        SLCK         ENT  SCLN     L     K  BSLS  -->
     5              RALT   APP  SLSH  QUOT        LEFT  -->
-    6        END   RSFT  PGDN  (NUHS) DOT  COMM        --> 
+    6        END   RSFT  PGDN (NUHS)  DOT  COMM        --> 
     7  LCTL  RGHT          UP  DOWN              RSPC  -->
     8        PSCR         F11   EQL    F9    F8   F10  -->
 
@@ -119,7 +117,7 @@ Modified matrix will have 8 rows and 17 columns and will require 25 pins:
                   -->     7   TAB     Q     2     1                          1
                   -->     Y    F5    F3     W     4          F6              2
                   -->     U     R     E  CAPS     3           T              3
-                  -->     J     F     D   (NUBS)  A        LGUI              4
+                  -->     J     F     D (NUBS)    A        LGUI              4
                   -->     H     G    F4     S   ESC              LALT        5
                   -->     M     V     C     X     Z  LSFT                    6
                   -->     N     B  LSPC                                RCTL  7
@@ -152,7 +150,7 @@ Note that RALT and RSFT are now sitting on the same column (C).
     `--------------------------------------------------------------------------------'
     
     
- #### 1.0 Default layer UK
+ #### 1.1 Default layer UK
     ,---------------------------.    ,-----------------------------------------------.
     |Esc| F1| F2| F3| F4| F5| F6|    | F7| F8| F9|F10|F11|F12|PrSc|ScLk|Pau|Calc|    |
     |---------------------------|    |-----------------------------------------------|
