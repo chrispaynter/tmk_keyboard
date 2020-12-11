@@ -1,3 +1,8 @@
+I forked this repo because it has the files and code to customise the sculpt keyboard.
+
+Eagle file - https://github.com/chrispaynter/tmk_keyboard/blob/master/keyboard/sculpt/keyb.brd
+
+
 TMK Keyboard Firmware Collection
 ================================
 This is a keyboard firmware with some useful features for Atmel AVR controller.
